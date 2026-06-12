@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>フルボ酸ミネラル｜古代の地層から届く、世界でも稀少なミネラル | Onc Labo</title>
+<meta name="description" content="米国ニューメキシコ州産、国内唯一の独占輸入・特許製法。古代発酵酵素群フルボ酸ミネラル。Onc Laboがお届けする、世界最高品質のフルボ酸ミネラル。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;800&family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF6EE;
+    --cream-deep:#F4ECDD;
+    --brown-deep:#3E2C1F;
+    --brown:#8B6F47;
+    --brown-soft:#A88B63;
+    --gold:#C9A876;
+    --ink:#2C2420;
+    --line:rgba(62,44,31,0.14);
+    --paper:#FFFFFF;
+    --green-tea:#5F6F52;
+    --max-w:1120px;
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box;}
+
+  html{scroll-behavior:smooth;}
+
+  body{
+    font-family:'Noto Sans JP', sans-serif;
+    color:var(--ink);
+    background:var(--cream);
+    line-height:1.9;
+    -webkit-font-smoothing:antialiased;
+    font-weight:300;
+  }
+
+  img{max-width:100%;display:block;}
+
+  .wrap{max-width:var(--max-w);margin:0 auto;padding:0 28px;}
+
+  h1,h2,h3,h4{
+    font-family:'Shippori Mincho', serif;
+    font-weight:600;
+    color:var(--brown-deep);
+    letter-spacing:0.02em;
+  }
+
+  .eyebrow{
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size:0.95rem;
+    letter-spacing:0.18em;
+    color:var(--brown-soft);
+    text-transform:uppercase;
+    margin-bottom:14px;
+    display:inline-block;
+  }
+
+  a{color:inherit;}
+
+  /* ===== HEADER ===== */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(251,246,238,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 28px;max-width:var(--max-w);margin:0 auto;
+  }
+  .logo{
+    font-family:'Shippori Mincho', serif;
+    font-size:1.25rem;font-weight:600;color:var(--brown-deep);
+    letter-spacing:0.08em;
+  }
+  .logo span{color:var(--gold);}
+  .nav-cta{
+    font-size:0.82rem;letter-spacing:0.1em;
+    padding:10px 22px;border:1px solid var(--brown-deep);
+    border-radius:2px;transition:0.3s;
+    font-family:'Noto Sans JP',sans-serif;
+    white-space:nowrap;
+  }
+  .nav-cta:hover{background:var(--brown-deep);color:var(--cream);}
+
+  /* ===== HERO ===== */
+  .hero{
+    position:relative;
+    min-height:92vh;
+    display:flex;align-items:center;
+    overflow:hidden;
+    background:linear-gradient(135deg, var(--cream) 0%, var(--cream-deep) 60%, #EFE3CC 100%);
+  }
+  .hero-grid{
+    display:grid;grid-template-columns:1.1fr 0.9fr;gap:60px;
+    align-items:center;width:100%;
+    max-width:var(--max-w);margin:0 auto;padding:80px 28px;
+  }
+  .hero-tag{
+    display:inline-flex;align-items:center;gap:10px;
+    border:1px solid var(--brown);
+    padding:6px 18px;border-radius:30px;
+    font-size:0.75rem;letter-spacing:0.15em;
+    color:var(--brown);margin-bottom:28px;
+  }
+  .hero-tag::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--gold);}
+  .hero h1{
+    font-size:clamp(2.4rem, 5vw, 3.6rem);
+    line-height:1.5;margin-bottom:24px;
+  }
+  .hero h1 em{
+    font-style:normal;color:var(--brown);
+    border-bottom:1px solid var(--gold);
+  }
+  .hero p.lead{
+    font-size:1.02rem;color:#5C4F42;max-width:480px;margin-bottom:36px;
+    font-weight:300;
+  }
+  .hero-buttons{display:flex;gap:16px;flex-wrap:wrap;}
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;
+    padding:16px 36px;
+    font-size:0.92rem;letter-spacing:0.08em;
+    border-radius:2px;
+    text-decoration:none;
+    transition:0.3s;
+    font-family:'Noto Sans JP',sans-serif;
+  }
+  .btn-primary{
+    background:var(--brown-deep);color:var(--cream);
+    border:1px solid var(--brown-deep);
+  }
+  .btn-primary:hover{background:var(--brown);border-color:var(--brown);}
+  .btn-ghost{
+    border:1px solid var(--brown-deep);color:var(--brown-deep);
+  }
+  .btn-ghost:hover{background:var(--brown-deep);color:var(--cream);}
+
+  .hero-visual{
+    position:relative;
+    aspect-ratio:4/5;
+    border-radius:4px;
+    overflow:hidden;
+    box-shadow:0 30px 60px -20px rgba(62,44,31,0.35);
+  }
+  .hero-visual img{width:100%;height:100%;object-fit:cover;}
+  .hero-badge{
+    position:absolute;top:24px;left:24px;
+    background:var(--brown-deep);color:var(--cream);
+    padding:12px 20px;
+    font-size:0.78rem;letter-spacing:0.15em;
+    border-radius:2px;
+  }
+  .hero-caption{
+    position:absolute;bottom:0;left:0;right:0;
+    padding:24px;
+    background:linear-gradient(transparent, rgba(40,28,18,0.7));
+    color:#fff;font-family:'Cormorant Garamond',serif;
+    font-style:italic;font-size:1.4rem;letter-spacing:0.04em;
+  }
+
+  /* ===== SECTION GENERIC ===== */
+  section{padding:100px 0;}
+  .section-head{text-align:center;max-width:680px;margin:0 auto 64px;}
+  .section-head h2{font-size:clamp(1.8rem,3.5vw,2.6rem);line-height:1.6;}
+  .section-head p{color:#6B5C4D;margin-top:16px;font-size:0.98rem;}
+
+  .divider{
+    width:60px;height:1px;background:var(--gold);margin:0 auto 20px;
+  }
+
+  /* ===== PROBLEM SECTION ===== */
+  .problem{background:var(--paper);}
+  .problem-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:36px;
+  }
+  .problem-card{
+    border:1px solid var(--line);padding:40px 32px;border-radius:4px;
+    transition:0.3s;
+  }
+  .problem-card:hover{border-color:var(--brown);transform:translateY(-4px);}
+  .problem-num{
+    font-family:'Cormorant Garamond',serif;font-style:italic;
+    font-size:2.4rem;color:var(--gold);margin-bottom:16px;display:block;
+  }
+  .problem-card h3{font-size:1.15rem;margin-bottom:12px;}
+  .problem-card p{font-size:0.9rem;color:#6B5C4D;}
+
+  /* ===== STORY SECTION ===== */
+  .story{
+    background:var(--brown-deep);color:var(--cream);
+    position:relative;overflow:hidden;
+  }
+  .story::before{
+    content:'';position:absolute;inset:0;
+    background:radial-gradient(circle at 80% 20%, rgba(201,168,118,0.18), transparent 50%);
+  }
+  .story-grid{
+    display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;
+    position:relative;z-index:1;
+  }
+  .story h2{color:var(--cream);}
+  .story .eyebrow{color:var(--gold);}
+  .story p{color:rgba(251,246,238,0.78);font-size:0.98rem;margin-bottom:18px;}
+  .story-visual{
+    aspect-ratio:1/1;border-radius:4px;overflow:hidden;
+    border:1px solid rgba(251,246,238,0.15);
+  }
+  .story-visual img{width:100%;height:100%;object-fit:cover;}
+  .story-quote{
+    font-family:'Cormorant Garamond',serif;font-style:italic;
+    font-size:1.5rem;color:var(--gold);line-height:1.7;
+    border-left:2px solid var(--gold);padding-left:24px;margin:28px 0;
+  }
+
+  /* ===== TIMELINE / ORIGIN ===== */
+  .origin{background:var(--cream-deep);}
+  .origin-content{
+    display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;
+  }
+  .origin-visual{
+    border-radius:4px;overflow:hidden;
+    box-shadow:0 20px 50px -15px rgba(62,44,31,0.25);
+  }
+  .origin-list{list-style:none;margin-top:28px;}
+  .origin-list li{
+    display:flex;gap:20px;padding:18px 0;border-bottom:1px solid var(--line);
+    font-size:0.92rem;color:#5C4F42;
+  }
+  .origin-list li:last-child{border-bottom:none;}
+  .origin-list .ico{
+    flex-shrink:0;width:34px;height:34px;border-radius:50%;
+    border:1px solid var(--brown);display:flex;align-items:center;justify-content:center;
+    font-family:'Shippori Mincho',serif;color:var(--brown);font-size:0.9rem;
+  }
+
+  /* ===== PRODUCTS ===== */
+  .products{background:var(--paper);}
+  .product-grid{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:36px;
+  }
+  .product-card{
+    border:1px solid var(--line);border-radius:6px;overflow:hidden;
+    display:flex;flex-direction:column;
+    transition:0.3s;
+    background:var(--cream);
+  }
+  .product-card:hover{box-shadow:0 20px 50px -20px rgba(62,44,31,0.3);}
+  .product-card.featured{border-color:var(--gold);position:relative;}
+  .featured-flag{
+    position:absolute;top:0;right:0;
+    background:var(--gold);color:var(--brown-deep);
+    font-size:0.75rem;letter-spacing:0.1em;
+    padding:8px 18px;border-radius:0 0 0 6px;
+  }
+  .product-img{aspect-ratio:4/3;overflow:hidden;background:#EFE3CC;}
+  .product-img img{width:100%;height:100%;object-fit:cover;}
+  .product-body{padding:32px;flex-grow:1;display:flex;flex-direction:column;}
+  .product-body h3{font-size:1.3rem;margin-bottom:6px;}
+  .product-body .sub{font-size:0.85rem;color:var(--brown-soft);margin-bottom:18px;letter-spacing:0.05em;}
+  .product-spec{
+    list-style:none;font-size:0.88rem;color:#6B5C4D;
+    margin-bottom:24px;display:flex;flex-direction:column;gap:8px;
+  }
+  .product-spec li{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding-bottom:8px;}
+  .product-price{
+    display:flex;align-items:baseline;gap:10px;margin-top:auto;margin-bottom:20px;
+    padding-top:16px;border-top:1px solid var(--line);
+  }
+  .price-num{font-family:'Cormorant Garamond',serif;font-size:2.2rem;color:var(--brown-deep);font-weight:600;}
+  .price-unit{font-size:0.85rem;color:#6B5C4D;}
+  .price-note{font-size:0.78rem;color:var(--brown-soft);margin-left:auto;}
+  .product-buttons{display:flex;gap:12px;}
+  .product-buttons .btn{flex:1;justify-content:center;padding:14px 20px;font-size:0.85rem;}
+
+  /* ===== HOW TO ===== */
+  .howto{background:var(--cream-deep);}
+  .howto-grid{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:60px;align-items:start;
+  }
+  .step{display:flex;gap:24px;margin-bottom:36px;}
+  .step:last-child{margin-bottom:0;}
+  .step-num{
+    font-family:'Shippori Mincho',serif;font-size:1.4rem;color:var(--gold);
+    border:1px solid var(--gold);border-radius:50%;
+    width:48px;height:48px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .step h4{font-size:1.05rem;margin-bottom:6px;}
+  .step p{font-size:0.9rem;color:#6B5C4D;}
+  .howto-note{
+    background:var(--paper);border:1px solid var(--line);border-radius:6px;
+    padding:28px;font-size:0.85rem;color:#6B5C4D;
+  }
+  .howto-note strong{color:var(--brown-deep);display:block;margin-bottom:8px;font-family:'Shippori Mincho',serif;font-size:1rem;}
+  .howto-visual{border-radius:4px;overflow:hidden;box-shadow:0 20px 50px -15px rgba(62,44,31,0.2);}
+
+  /* ===== VOICES ===== */
+  .voices{background:var(--paper);}
+  .voice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}
+  .voice-card{
+    background:var(--cream);border-radius:6px;padding:36px 30px;
+    border:1px solid var(--line);position:relative;
+  }
+  .voice-card::before{
+    content:'"';font-family:'Cormorant Garamond',serif;
+    font-size:3.5rem;color:var(--gold);position:absolute;top:8px;left:20px;
+    line-height:1;
+  }
+  .voice-text{font-size:0.92rem;color:#5C4F42;margin:28px 0 20px;line-height:1.85;}
+  .voice-meta{font-size:0.8rem;color:var(--brown-soft);letter-spacing:0.05em;
+    border-top:1px solid var(--line);padding-top:14px;}
+
+  /* ===== CTA PERSONAL ===== */
+  .cta-personal{
+    background:linear-gradient(135deg, var(--brown-deep), #4E3826);
+    color:var(--cream);text-align:center;
+  }
+  .cta-personal h2{color:var(--cream);font-size:clamp(1.8rem,3.5vw,2.6rem);margin-bottom:20px;}
+  .cta-personal p{color:rgba(251,246,238,0.75);max-width:560px;margin:0 auto 40px;}
+  .cta-personal .btn-primary{background:var(--gold);border-color:var(--gold);color:var(--brown-deep);font-size:1rem;padding:18px 48px;}
+  .cta-personal .btn-primary:hover{background:#fff;border-color:#fff;}
+
+  /* ===== B2B SECTION ===== */
+  .b2b{background:var(--cream-deep);}
+  .b2b-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+  .b2b-list{list-style:none;margin:28px 0;}
+  .b2b-list li{
+    padding:14px 0 14px 32px;position:relative;
+    font-size:0.92rem;color:#5C4F42;border-bottom:1px solid var(--line);
+  }
+  .b2b-list li:last-child{border-bottom:none;}
+  .b2b-list li::before{
+    content:'◆';position:absolute;left:0;color:var(--brown);font-size:0.7rem;top:18px;
+  }
+  .b2b-panel{
+    background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:44px;
+  }
+  .b2b-panel h3{font-size:1.3rem;margin-bottom:16px;}
+  .b2b-panel p{font-size:0.9rem;color:#6B5C4D;margin-bottom:28px;}
+  .b2b-meta{font-size:0.82rem;color:var(--brown-soft);margin-top:20px;line-height:1.8;}
+
+  /* ===== FOOTER ===== */
+  footer{background:var(--brown-deep);color:rgba(251,246,238,0.6);padding:60px 0 30px;}
+  .footer-grid{display:flex;justify-content:space-between;flex-wrap:wrap;gap:40px;margin-bottom:40px;}
+  .footer-logo{font-family:'Shippori Mincho',serif;font-size:1.3rem;color:var(--cream);letter-spacing:0.08em;margin-bottom:14px;}
+  .footer-logo span{color:var(--gold);}
+  .footer-col h5{color:var(--cream);font-size:0.85rem;letter-spacing:0.1em;margin-bottom:16px;font-family:'Noto Sans JP',sans-serif;font-weight:500;}
+  .footer-col p, .footer-col a{font-size:0.85rem;display:block;margin-bottom:8px;text-decoration:none;color:rgba(251,246,238,0.6);}
+  .footer-col a:hover{color:var(--gold);}
+  .footer-bottom{
+    border-top:1px solid rgba(251,246,238,0.12);padding-top:24px;
+    font-size:0.78rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
+  }
+  .footer-disclaimer{
+    font-size:0.74rem;color:rgba(251,246,238,0.4);line-height:1.9;
+    max-width:900px;margin-top:24px;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 860px){
+    .hero-grid{grid-template-columns:1fr;gap:48px;padding:60px 24px;}
+    .hero-visual{aspect-ratio:5/4;}
+    .problem-grid{grid-template-columns:1fr;}
+    .story-grid{grid-template-columns:1fr;gap:40px;}
+    .story-visual{order:-1;}
+    .origin-content{grid-template-columns:1fr;gap:40px;}
+    .product-grid{grid-template-columns:1fr;}
+    .howto-grid{grid-template-columns:1fr;gap:40px;}
+    .voice-grid{grid-template-columns:1fr;}
+    .b2b-grid{grid-template-columns:1fr;gap:40px;}
+    section{padding:64px 0;}
+    .nav-cta{font-size:0.74rem;padding:8px 14px;}
+    .logo{font-size:1.05rem;}
+    .footer-grid{flex-direction:column;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">Onc <span>Labo</span></div>
+    <a href="#order" class="nav-cta">ご購入はこちら</a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="hero-tag">国内唯一の独占輸入・特許製法</div>
+      <h1>7,500万年前の地層が宿す、<br><em>世界でも稀少な</em>フルボ酸ミネラル</h1>
+      <p class="lead">
+        日本の大地に元来少ないミネラル。当社は米国ニューメキシコ州の古代地層から、
+        国内唯一の独占輸入権と特許製法により、フルボ酸・フミン酸を含む
+        オールナチュラルなミネラル濃縮粉末をお届けしています。
+      </p>
+      <div class="hero-buttons">
+        <a href="#order" class="btn btn-primary">商品を見る</a>
+        <a href="#story" class="btn btn-ghost">フルボ酸ミネラルとは</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="assets/flyer-1.jpg" alt="フルボ酸ミネラル パッケージとオレンジ・ハーブのイメージ">
+      <div class="hero-badge">栄養補助食品<br>（食品原料加工製品）</div>
+      <div class="hero-caption">All Natural</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROBLEM ================= -->
+<section class="problem">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why Minerals</span>
+      <div class="divider"></div>
+      <h2>「バランスの良い食事」だけでは、<br>足りないものがあります</h2>
+      <p>ミネラルは体内で合成できない栄養素。日本の土壌は元来ミネラルが少なく、現代の食生活だけで十分な量を摂ることは難しいといわれています。</p>
+    </div>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <span class="problem-num">01</span>
+        <h3>日本の大地はミネラル不足</h3>
+        <p>日本の土壌は世界的に見てもミネラル含有量が少なく、私たちの体は常にミネラル不足の状態にあるといわれています。</p>
+      </div>
+      <div class="problem-card">
+        <span class="problem-num">02</span>
+        <h3>体内では作れない</h3>
+        <p>ミネラルは体内で合成されることがない栄養素。日々の食事や生活の中で、外部から補い続ける必要があります。</p>
+      </div>
+      <div class="problem-card">
+        <span class="problem-num">03</span>
+        <h3>毎日の習慣に、無味無臭で</h3>
+        <p>フルボ酸ミネラルは無味・無臭の弱アルカリ性イオン化ミネラル群。お水やお飲み物に溶かすだけで、毎日の習慣に取り入れやすい形に仕上げました。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STORY / ORIGIN STORY ================= -->
+<section class="story" id="story">
+  <div class="wrap">
+    <div class="story-grid">
+      <div>
+        <span class="eyebrow">What is Fulvic Acid</span>
+        <h2>フルボ酸とは　─　<br>土壌の中に眠る、いのちの複合物質</h2>
+        <p>
+          フルボ酸はもともと土壌の中に存在する、ミネラルやアミノ酸などを含む植物系の複合物質。
+          世界でも限られた場所にしか埋蔵されていない、極めて貴重な資源です。
+        </p>
+        <div class="story-quote">
+          毎日少しずつ取り入れることで、<br>からだの巡りを支える習慣に。
+        </div>
+        <p>
+          当社は国内で唯一、米国からのフルボ酸原料の独占輸入権を取得。
+          特許製法により無添加で仕上げ、国内で約1年間の熟成・自然抽出を行っています。
+        </p>
+      </div>
+      <div class="story-visual">
+        <img src="assets/flyer-2-mountains.jpg" alt="フルボ酸採掘地のニューメキシコ州ロッキー山脈麓の風景">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ORIGIN / QUALITY ================= -->
+<section class="origin">
+  <div class="wrap">
+    <div class="origin-content">
+      <div class="origin-visual">
+        <img src="assets/flyer-1-jar.jpg" alt="フルボ酸ミネラル粉末のボトルとオレンジ・ハーブ">
+      </div>
+      <div>
+        <span class="eyebrow">Origin & Quality</span>
+        <div class="divider" style="margin-left:0;"></div>
+        <h2>採掘地が、品質を決める</h2>
+        <p style="margin-top:16px;font-size:0.95rem;color:#5C4F42;">
+          フルボ酸の質は、その土壌が育まれた環境によって大きく異なります。
+          当社のフルボ酸ミネラルは、約7,500万年前、汚染のない時代に
+          動植物が豊かに育った地層から採掘された、種子植物系の古代フルボ酸を使用しています。
+        </p>
+        <ul class="origin-list">
+          <li>
+            <span class="ico">米</span>
+            <div>
+              <strong>採掘地：米国ニューメキシコ州</strong><br>
+              ロッキー山脈麓の淡水湖付近、約7,500万年前の植物堆積層から採掘。
+            </div>
+          </li>
+          <li>
+            <span class="ico">製</span>
+            <div>
+              <strong>低温乾燥・自然抽出</strong><br>
+              日本国内初の低温乾燥（自社特許）と、国内での約1年間の熟成・自然抽出により再粉末化。
+            </div>
+          </li>
+          <li>
+            <span class="ico">無</span>
+            <div>
+              <strong>完全無精製・無添加</strong><br>
+              強アルカリ・強酸性の薬剤を使用しない製法で、栄養素やフルボ酸本来の構造を保持。
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="products" id="order">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Products</span>
+      <div class="divider"></div>
+      <h2>フルボ酸ミネラル〈液体用粉末〉<br>浄水還元タイプ</h2>
+      <p>付属のミニスプーンで、お好きなお飲み物や浄水に。1～2杯を200ml以上の浄水に溶かしてお召し上がりください。</p>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card featured">
+        <div class="featured-flag">人気・3ヶ月分</div>
+        <div class="product-img">
+          <img src="assets/product-3mo.jpg" alt="フルボ酸ミネラル 3moタイプ">
+        </div>
+        <div class="product-body">
+          <h3>フルボ酸ミネラル 3moタイプ</h3>
+          <div class="sub">内容量：18g（3ヶ月分）</div>
+          <ul class="product-spec">
+            <li><span>内容成分</span><span>フルボ酸ミネラル（フミン酸含む）50倍濃縮粉末</span></li>
+            <li><span>調整剤</span><span>有機タピオカ由来デキストリン</span></li>
+            <li><span>1ヶ月あたり</span><span>約4,000円相当</span></li>
+          </ul>
+          <div class="product-price">
+            <span class="price-num">¥12,000</span>
+            <span class="price-unit">税込</span>
+            <span class="price-note">公式直販価格</span>
+          </div>
+          <div class="product-buttons">
+            <a href="https://lin.ee/uXNZJ1F" class="btn btn-primary" target="_blank" rel="noopener">公式LINEで購入相談</a>
+            <a href="https://www.amazon.co.jp/dp/B0GPMY92Y7" class="btn btn-ghost" target="_blank" rel="noopener">Amazonで見る</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">
+          <img src="assets/product-1mo.jpg" alt="フルボ酸ミネラル 1moタイプ">
+        </div>
+        <div class="product-body">
+          <h3>フルボ酸ミネラル 1moタイプ</h3>
+          <div class="sub">内容量：6g（1ヶ月分）</div>
+          <ul class="product-spec">
+            <li><span>内容成分</span><span>フルボ酸ミネラル（フミン酸含む）50倍濃縮粉末</span></li>
+            <li><span>調整剤</span><span>有機タピオカ由来デキストリン</span></li>
+            <li><span>はじめての方に</span><span>まずは1ヶ月分から</span></li>
+          </ul>
+          <div class="product-price">
+            <span class="price-num">¥6,000</span>
+            <span class="price-unit">税込</span>
+            <span class="price-note">公式直販価格</span>
+          </div>
+          <div class="product-buttons">
+            <a href="https://lin.ee/uXNZJ1F" class="btn btn-primary" target="_blank" rel="noopener">公式LINEで購入相談</a>
+            <a href="https://www.amazon.co.jp/dp/B0GPMY92Y7" class="btn btn-ghost" target="_blank" rel="noopener">Amazonで見る</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW TO USE ================= -->
+<section class="howto">
+  <div class="wrap">
+    <div class="howto-grid">
+      <div>
+        <span class="eyebrow">How to Enjoy</span>
+        <div class="divider" style="margin-left:0;"></div>
+        <h2 style="margin-bottom:36px;">お召し上がり方</h2>
+
+        <div class="step">
+          <div class="step-num">1</div>
+          <div>
+            <h4>付属のスプーンで、すり切り1〜2杯</h4>
+            <p>付属のミニスプーンですくった粉末をスティックですり切り、グラスに入れます。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div>
+            <h4>200ml以上の浄水でかき混ぜる</h4>
+            <p>200ml以上の浄水を注ぎ、よくかき混ぜてお召し上がりください。コーヒーやカレー・中華などのお料理に混ぜても美味しくいただけます。</p>
+          </div>
+        </div>
+
+        <div class="howto-note">
+          <strong>ご利用にあたって</strong>
+          高濃度のため、粉末を直接飲用することはお控えください。塩素を含む水道水での直接の希釈もお控えください。
+        </div>
+      </div>
+
+      <div>
+        <div class="howto-visual" style="margin-bottom:32px;">
+          <img src="assets/flyer-2-product.jpg" alt="フルボ酸ミネラル粉末とスプーン">
+        </div>
+        <div class="howto-note">
+          <strong>ワンちゃん・ネコちゃんにご使用になられる場合</strong>
+          1リットルの浄水に対して粉末をすり切り1杯程度の濃度で溶かして、飲み水としてご活用ください（薄い紅茶色になります）。
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VOICES ================= -->
+<section class="voices">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Voices</span>
+      <div class="divider"></div>
+      <h2>毎日の習慣にされている方々の声</h2>
+      <p>※効果効能を保証するものではなく、個人の感想・体験として掲載しています。</p>
+    </div>
+    <div class="voice-grid">
+      <div class="voice-card">
+        <p class="voice-text">
+          無味無臭なので、毎朝のコーヒーに溶かすだけ。続けやすさが一番気に入っています。粉末も少量で済むので、出張先にも持っていきやすいです。
+        </p>
+        <div class="voice-meta">40代・女性／半年ほど継続中</div>
+      </div>
+      <div class="voice-card">
+        <p class="voice-text">
+          ミネラル不足が気になっていたところ、知人に勧められて始めました。お水に溶かすだけなので、毎日の生活に無理なく取り入れられています。
+        </p>
+        <div class="voice-meta">50代・男性／経営者</div>
+      </div>
+      <div class="voice-card">
+        <p class="voice-text">
+          愛犬の飲み水に少量加えるようにしています。薄い紅茶色になるだけで嫌がらず飲んでくれるので、家族の習慣として続けています。
+        </p>
+        <div class="voice-meta">30代・女性／ペットオーナー</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA PERSONAL ================= -->
+<section class="cta-personal">
+  <div class="wrap">
+    <span class="eyebrow" style="color:var(--gold);">Get Started</span>
+    <h2>まずは1ヶ月分から、<br>毎日の習慣にしてみませんか</h2>
+    <p>ご質問やお見積もり、定期購入のご相談など、Onc Labo公式LINEから気軽にお問い合わせください。</p>
+    <a href="https://lin.ee/uXNZJ1F" class="btn btn-primary" target="_blank" rel="noopener">公式LINEで相談・購入する</a>
+  </div>
+</section>
+
+<!-- ================= B2B SECTION ================= -->
+<section class="b2b" id="b2b">
+  <div class="wrap">
+    <div class="b2b-grid">
+      <div>
+        <span class="eyebrow">For Clinics & Salons</span>
+        <div class="divider" style="margin-left:0;"></div>
+        <h2>クリニック・治療院様向け<br>院内物販のご案内</h2>
+        <p style="margin-top:16px;font-size:0.95rem;color:#5C4F42;">
+          Onc Laboでは、フルボ酸ミネラルを院内物販商品として取り扱っていただける
+          クリニック・治療院・サロン様向けに、卸価格でのご提供を行っております。
+        </p>
+        <ul class="b2b-list">
+          <li>1ヶ月分（6g）／3ヶ月分（18g）の2サイズに対応</li>
+          <li>パンフレット・POP等の販促物のご相談も可能</li>
+          <li>遺伝子解析・栄養検査と組み合わせたウェルネスプログラムのご提案も承っております</li>
+        </ul>
+      </div>
+
+      <div class="b2b-panel">
+        <h3>お取引・お見積もりのご相談</h3>
+        <p>
+          卸条件・最小ロット・価格表など、詳細は公式LINEまたはお問い合わせフォームよりご連絡ください。
+          担当よりご案内いたします。
+        </p>
+        <a href="https://lin.ee/uXNZJ1F" class="btn btn-primary" target="_blank" rel="noopener" style="width:100%;justify-content:center;">公式LINEで法人のお問い合わせ</a>
+        <div class="b2b-meta">
+          運営：Onc Labo（オンクラボ）　代表：井田孝<br>
+          〒164-0001 東京都中野区中野4丁目10番2号 中野セントラルパークサウス 2階<br>
+          製造元：タナカ技研（フルボ酸輸入・製造元／許可63222125 特許6516566）<br>
+          石川県野々市市下林4-534
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Onc <span>Labo</span></div>
+        <p style="max-width:320px;font-size:0.85rem;line-height:1.9;">
+          予防医学の視点から、遺伝子・栄養解析とウェルネスプロダクトをお届けしています。
+        </p>
+      </div>
+      <div class="footer-col">
+        <h5>PRODUCT</h5>
+        <a href="#order">フルボ酸ミネラル</a>
+        <a href="#story">フルボ酸ミネラルとは</a>
+        <a href="#b2b">法人・院内物販</a>
+      </div>
+      <div class="footer-col">
+        <h5>CONTACT</h5>
+        <a href="https://lin.ee/uXNZJ1F" target="_blank" rel="noopener">公式LINE</a>
+        <a href="https://onclabo.com" target="_blank" rel="noopener">onclabo.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Onc Labo</span>
+      <span>製造元：タナカ技研</span>
+    </div>
+    <p class="footer-disclaimer" style="margin-top:8px;">
+      運営：Onc Labo（代表：井田孝）　〒164-0001 東京都中野区中野4丁目10番2号 中野セントラルパークサウス 2階
+    </p>
+    <p class="footer-disclaimer">
+      本商品は栄養補助食品（食品原料加工製品）です。医薬品ではありません。特定の効果・効能を保証するものではなく、
+      診断・治療・予防を目的としたものではありません。体調に不安がある場合は医師にご相談ください。
+      掲載しているお客様の声は個人の感想であり、効果を保証するものではありません。
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
